@@ -24,5 +24,44 @@ namespace Tema2_Imagen
         {
             InitializeComponent();
         }
+
+        private void botonOpacidadAlta_Checked(object sender, RoutedEventArgs e)
+        {
+            
+            imagen.Opacity = 1;
+            
+        }
+
+        private void botonOpacidadMedia_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Opacity = 0.6;
+            
+        }
+
+        private void botonOpacidaBaja_Checked(object sender, RoutedEventArgs e)
+        {
+           imagen.Opacity = 0.3;
+            
+        }
+
+        private void botonAjusteRelleno_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.Fill;
+        }
+
+        private void botonAjusteUniforme_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.Uniform;
+        }
+
+        private void botonAjusteRellenoUniforme_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.UniformToFill;
+        }
+
+        private void botonAjusteSinAjuste_Checked(object sender, RoutedEventArgs e)
+        {
+            imagen.Stretch = Stretch.None;
+        }
     }
 }
