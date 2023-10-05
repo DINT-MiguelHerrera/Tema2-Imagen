@@ -6,10 +6,15 @@
     <RootNamespace>Tema2_Imagen</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>IconoImagen.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="episodioIV.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="IconoImagen.ico" />
   </ItemGroup>
 
   <ItemGroup>

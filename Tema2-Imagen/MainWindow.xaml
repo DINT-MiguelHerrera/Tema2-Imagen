@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_Imagen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Imagen" Height="450" Width="800">
     <Grid>
         <Image x:Name="imagen" HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Center" Source="/episodioIV.jpg" Height="396" Width="438"/>
         <TextBlock x:Name="textoOpacidad" HorizontalAlignment="Left" Margin="519,70,0,0" TextWrapping="Wrap" Text="Opacidad" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
         <TextBlock x:Name="textoAjuste" HorizontalAlignment="Left" Margin="537,210,0,0" TextWrapping="Wrap" Text="Ajuste" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
-        <StackPanel Margin="523,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100">
-            <RadioButton x:Name="botonOpacidadAlta" Content="Alta" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonOpacidadAlta_Checked"/>
-            <RadioButton x:Name="botonOpacidadMedia" Content="Media" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonOpacidadMedia_Checked"/>
-            <RadioButton x:Name="botonOpacidadBaja" Content="Baja" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonOpacidaBaja_Checked"/>
+        <StackPanel Margin="519,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100">
+            <RadioButton x:Name="botonOpacidadAlta" Content="Alta" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonOpacidadAlta_Checked"/>
+            <RadioButton x:Name="botonOpacidadMedia" Content="Media" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonOpacidadMedia_Checked"/>
+            <RadioButton x:Name="botonOpacidadBaja" Content="Baja" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonOpacidaBaja_Checked"/>
         </StackPanel>
-        <StackPanel Margin="463,261,117,61">
-            <RadioButton x:Name="botonAjusteRelleno" Content="Relleno (Fill)" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonAjusteRelleno_Checked"/>
-            <RadioButton x:Name="botonAjusteUniforme" Content="Uniforme (Uniform)" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonAjusteUniforme_Checked"/>
-            <RadioButton x:Name="botonAjusteRellenoUniforme" Content="Relleno Uniforme (Uniform ToFill)" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonAjusteRellenoUniforme_Checked"/>
-            <RadioButton x:Name="botonAjusteSinAjuste" Content="Sin ajuste (None)" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="botonAjusteSinAjuste_Checked"/>
+        <StackPanel Margin="519,260,80,75">
+            <RadioButton x:Name="botonAjusteRelleno" Content="Relleno (Fill)" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonAjusteRelleno_Checked"/>
+            <RadioButton x:Name="botonAjusteUniforme" Content="Uniforme (Uniform)" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonAjusteUniforme_Checked"/>
+            <RadioButton x:Name="botonAjusteRellenoUniforme" Content="Relleno Uniforme (Uniform ToFill)" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonAjusteRellenoUniforme_Checked"/>
+            <RadioButton x:Name="botonAjusteSinAjuste" Content="Sin ajuste (None)" HorizontalAlignment="Left" VerticalAlignment="Center" Checked="botonAjusteSinAjuste_Checked"/>
         </StackPanel>
 
 
